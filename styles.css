@@ -1,0 +1,43 @@
+.intro, footer {
+    background-color: #1F2937;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+header p, footer {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.nav-bar {
+    font-size: 24px;
+}
+
+a:link{
+    color: #F9FAF8;
+    text-decoration: none;
+}
+a:visited {
+    color: #F9FAF8;
+    text-decoration: none;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.quote q {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style:italic;
+}
+
+form, button {
+    background-color: #3882F8;
+    color: #F9FAF8;
+}

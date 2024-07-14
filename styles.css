@@ -1,11 +1,26 @@
+* {
+    border: 2px solid red;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
 .intro, footer {
     background-color: #1F2937;
+}
+
+.book-cat {
+    margin-left: 200px;
+
 }
 
 h1 {
     font-size: 48px;
     font-weight: bolder;
-    color: #F9FAF8;
+    color: #F9FAF8; 
 }
 
 header p, footer {
@@ -15,6 +30,9 @@ header p, footer {
 
 .nav-bar {
     font-size: 24px;
+    text-align: end;
+    margin-top: -90px;
+    margin-right: 200px;
 }
 
 a:link{
@@ -26,6 +44,15 @@ a:visited {
     text-decoration: none;
 }
 
+.facts {
+    display: flex;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
 .quote {
     background-color: #E5E7EB;
 }
@@ -40,4 +67,11 @@ a:visited {
 form, button {
     background-color: #3882F8;
     color: #F9FAF8;
+}
+
+.button-one {
+    box-sizing: border-box;
+    width: 120px;
+    height: 40px;
+    font-size: 18px;
 }

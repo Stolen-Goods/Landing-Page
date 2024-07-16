@@ -1,5 +1,5 @@
 * {
-    border: 2px solid red;
+    /*border: 1px solid red;*/
 }
 
 .intro {
@@ -13,14 +13,18 @@
 }
 
 .book-cat {
-    margin-left: 200px;
-
+    /*margin-left: 200px;*/
 }
 
 h1 {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8; 
+    padding-left: none;
+}
+
+.main, .book-cat{
+    align-self: flex-start;
 }
 
 header p, footer {
@@ -28,11 +32,17 @@ header p, footer {
     color: #E5E7EB;
 }
 
+footer {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 .nav-bar {
     font-size: 24px;
     text-align: end;
-    margin-top: -90px;
-    margin-right: 200px;
+    /*margin-top: -90px;
+    margin-right: 200px;*/
 }
 
 a:link{
@@ -45,16 +55,42 @@ a:visited {
 }
 
 .facts {
-    display: flex;
+    position: relative;
+    padding-top: 70px;
+    padding-bottom: 60px;
 }
 
+.figures { 
+    display: flex;
+    justify-content: center;
+}
+
+figcaption {
+    font-weight: lighter;
+}
+
+.claws, .scratch, .food, .sleep {
+    border: 6px solid #6666ff;
+    border-radius: 10%;
+}
+
+.main-cat, .nav-bar {
+    align-self: flex-end;
+}
 h2 {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
+    position: absolute;
+    top: -5px;
+    left: 820px;
+    
 }
 .quote {
     background-color: #E5E7EB;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 .quote q {
@@ -64,9 +100,29 @@ h2 {
     font-style:italic;
 }
 
+.form-border {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: center;
+}
+
 form, button {
     background-color: #3882F8;
     color: #F9FAF8;
+    text-align: center;
+    font-size: 28px;
+}
+
+form {
+    width: 500px;
+    padding: 40px 160px;
+}
+
+.sign-up {
+    border: 2px solid white;
+    border-radius: 10%;
+    font-size: 18px;
 }
 
 .button-one {

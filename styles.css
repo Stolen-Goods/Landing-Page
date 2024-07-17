@@ -12,8 +12,25 @@
     background-color: #1F2937;
 }
 
+.main {
+    position: relative;
+    top: 115px;
+}
+
+.main p {
+    word-wrap: break-word;
+    position: relative;
+    left: 198px;
+}
+
+.main-cat {
+    position: relative;
+    bottom: 120px;
+    right: 200px;
+}
+
 .book-cat {
-    /*margin-left: 200px;*/
+    margin-left: 200px;
 }
 
 h1 {
@@ -21,6 +38,7 @@ h1 {
     font-weight: bolder;
     color: #F9FAF8; 
     padding-left: none;
+    margin-right: 111px;
 }
 
 .main, .book-cat{
@@ -28,7 +46,7 @@ h1 {
 }
 
 header p, footer {
-    font-size: 18px;
+    font-size: 22px;
     color: #E5E7EB;
 }
 
@@ -41,8 +59,10 @@ footer {
 .nav-bar {
     font-size: 24px;
     text-align: end;
-    /*margin-top: -90px;
-    margin-right: 200px;*/
+    margin-top: -90px;
+    margin-right: 200px;
+    display: flex;
+    gap: 2rem;
 }
 
 a:link{
@@ -56,8 +76,8 @@ a:visited {
 
 .facts {
     position: relative;
-    padding-top: 70px;
-    padding-bottom: 60px;
+    padding-top: 150px;
+    padding-bottom: 150px;
 }
 
 .figures { 
@@ -77,20 +97,21 @@ figcaption {
 .main-cat, .nav-bar {
     align-self: flex-end;
 }
+
 h2 {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
     position: absolute;
-    top: -5px;
+    top: 30px;
     left: 820px;
     
 }
 .quote {
     background-color: #E5E7EB;
     text-align: center;
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 150px;
+    padding-bottom: 150px;
 }
 
 .quote q {
@@ -100,9 +121,14 @@ h2 {
     font-style:italic;
 }
 
+.author {
+    font-size: 22px;
+    font-weight: bolder;
+}
+
 .form-border {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 90px;
+    padding-bottom: 90px;
     display: flex;
     justify-content: center;
 }
@@ -115,14 +141,19 @@ form, button {
 }
 
 form {
-    width: 500px;
+    width: 900px;
     padding: 40px 160px;
+    border-radius: 10px;
 }
 
 .sign-up {
     border: 2px solid white;
     border-radius: 10%;
     font-size: 18px;
+    padding: 10px;
+    margin-left: 150px;
+    font-weight: bold;
+
 }
 
 .button-one {
@@ -130,4 +161,6 @@ form {
     width: 120px;
     height: 40px;
     font-size: 18px;
+    border-radius: 10px;
+    margin-right: 517px;
 }
